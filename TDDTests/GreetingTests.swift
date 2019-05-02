@@ -61,9 +61,9 @@ class GreetingTests: XCTestCase
     
     // When
     let greeting = sut.generate(firstName: firstName, lastName: lastName)
-    
+    //Fail it
     // Then
-    XCTAssertEqual(greeting, "Hi Raymond.", "generate(firstName:lastName:) should return a friendly greeting with just the first name")
+    XCTAssertEqual(greeting, "Hi Looser.", "generate(firstName:lastName:) should return a friendly greeting with just the first name")
   }
   
   func testGenerateShouldReturnFormalGreetingWithJustLastName()
